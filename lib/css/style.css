@@ -1,0 +1,8 @@
+.jumbotron {
+    background: url(../images/heroImageGrafittiBlur.png) no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    background-position: 10% 10%;
+
+}

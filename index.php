@@ -5,6 +5,9 @@
     <title>A.R.T. 30 for 30</title>
 </head>
 <body>
-    <h1>Test</h1>
+    <div class="jumbotron">
+        <h1>Test</h1>
+        <p>DEMO OF 30 FOR 30</p>
+    </div>
 </body>
 </html>
