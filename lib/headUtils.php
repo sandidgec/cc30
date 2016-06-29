@@ -7,6 +7,8 @@
 
 <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Orbitron' rel='stylesheet' type='text/css'>
 
+<link href='https://fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css'>
+
 <link rel="stylesheet" href="lib/css/style.css">
 
 <link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>

@@ -4,5 +4,17 @@
     padding: 10%;
     text-align: center;
     background-position: 10% 10%;
+    height: 700px;
+
+
+}
+
+.dateHead {
+
+    padding-left: 95%;
+    padding-bottom: 90%;
+    color: darkcyan !important;
+    font-family: 'Marcellus SC', serif;
+
 
 }
