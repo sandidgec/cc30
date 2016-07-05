@@ -6,15 +6,12 @@
     background-position: 10% 10%;
     height: 700px;
 
-
 }
 
-.dateHead {
 
-    padding-left: 95%;
-    padding-bottom: 90%;
-    color: darkcyan !important;
+.appopen {
+    padding-top: 5px;
     font-family: 'Marcellus SC', serif;
-
-
+    color: white;
+    font-size: 3em;
 }
