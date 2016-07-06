@@ -12,7 +12,7 @@
 
       $subject = "Someone Applied for Abq 30 in 30";
       $message = $_POST['email'] . " just applied to be part of Abq 30 in 30";
-      $accepted = mail("someone@gmail.com", $subject, $message);
+      $accepted = mail("charles@gcultivatingcoders.com", $subject, $message);
 
       if ($accepted) {
 
@@ -50,7 +50,7 @@
         <div class="form-group">
           <label for="inputEmail">Email</label>
           <input type="email" id="inputEmail" class="form-control" name="email"
-            placeholder="joesmith@gmail.com">
+            placeholder="sample@gemail.com">
         </div>
 
         <div class="form-group">
