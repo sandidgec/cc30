@@ -16,11 +16,8 @@
     font-size: 3em;
 }
 
-.centered-form-wrapper {
-  width: 330px;
-  margin: 20px auto;
-}
-
-.centered-form-wrapper form {
-  text-align: center;
+.fa {
+    font-size: 2.5em;
+    color: white;
+    padding-left: 20px;
 }
