@@ -15,3 +15,12 @@
     color: white;
     font-size: 3em;
 }
+
+.centered-form-wrapper {
+  width: 330px;
+  margin: 20px auto;
+}
+
+.centered-form-wrapper form {
+  text-align: center;
+}
