@@ -21,3 +21,8 @@
     color: white;
     padding-left: 20px;
 }
+
+.centered-form-wrapper {
+  width: 500px;
+  margin: 50px auto;
+}
