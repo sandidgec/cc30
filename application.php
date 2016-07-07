@@ -6,6 +6,7 @@
 </head>
 <body>
 
+  <div class="container">
   <?php
 
     if (!empty($_POST['email'])) {
@@ -47,10 +48,36 @@
 
       <form method="POST" action="application.php">
 
+        <h4>Tell Us About Yourself</h4>
+
+        <div class="form-group">
+          <label for="inputName">Your Name</label>
+          <input type="text" id="inputName" class="form-control" name="name"
+            placeholder="Ex: John Smith">
+        </div>
+
+        <div class="form-group">
+          <label for="inputBusiness">Your Business</label>
+          <input type="text" id="inputBusiness" class="form-control"
+            name="business" placeholder="Ex: Tom's Taquito Shack">
+        </div>
+
+        <hr />
+
+        <h4>Why Are You Applying?</h4>
+
+        <div class="form-group">
+          <textarea class="form-control" name="reason" rows="4"></textarea>
+        </div>
+
+        <hr />
+
+        <h4>What's Your Email?</h4>
+
         <div class="form-group">
           <label for="inputEmail">Email</label>
           <input type="email" id="inputEmail" class="form-control" name="email"
-            placeholder="sample@gemail.com">
+            placeholder="sample@gmail.com">
         </div>
 
         <div class="form-group">
@@ -64,6 +91,7 @@
   <?php
     }
   ?>
+  </div>
 
 </body>
 </html>
