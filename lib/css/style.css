@@ -5,15 +5,13 @@
     text-align: center;
     background-position: 10% 10%;
     height: 700px;
-
 }
 
-
 .appopen {
-    padding-top: 5px;
-    font-family: 'Marcellus SC', serif;
-    color: white;
-    font-size: 3em;
+  padding-top: 5px;
+  font-family: 'Marcellus SC', serif;
+  color: white;
+  font-size: 3em;
 }
 
 .fa {
@@ -25,4 +23,5 @@
 .centered-form-wrapper {
   width: 500px;
   margin: 50px auto;
+  text-align: center;
 }

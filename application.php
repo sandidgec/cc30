@@ -12,7 +12,7 @@
 
       $subject = "Someone Applied for Abq 30 in 30";
       $message = $_POST['email'] . " just applied to be part of Abq 30 in 30";
-      $accepted = mail("charles@gcultivatingcoders.com", $subject, $message);
+      $accepted = mail("charles@cultivatingcoders.com", $subject, $message);
 
       if ($accepted) {
 
