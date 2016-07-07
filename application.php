@@ -12,7 +12,11 @@
     if (!empty($_POST['email'])) {
 
       $subject = "Someone Applied for Abq 30 in 30";
-      $message = $_POST['email'] . " just applied to be part of Abq 30 in 30";
+      $message = $_POST['name'] . " just applied to be part of Abq 30 in 30." .
+        "Their business is called: " . $_POST['business'] . ", their email is" .
+        $_POST['email'] . " and they think they should be picked because: " .
+        $_POST['reason'];
+        
       $accepted = mail("charles@cultivatingcoders.com", $subject, $message);
 
       if ($accepted) {
