@@ -15,7 +15,7 @@
 }
 
 .fa {
-    font-size: 2.5em;
+    font-size: 2em;
     color: white;
     padding-left: 20px;
 }
@@ -23,4 +23,34 @@
 .centered-form-wrapper {
   width: 500px;
   margin: 50px auto;
+}
+
+.infoBlocks {
+    font-size: 1.3em;
+    font-family: 'Marcellus SC', serif;
+    text-align: center;
+}
+
+.infoIcons {
+    color: lightgray;
+    font-size: 3em;
+
+}
+
+.box1 {
+
+    padding: 20px 10px;
+    margin: 20px;
+}
+
+.btn-lg {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.blocks1 {
+    text-align: center;
+    color: rgba(12,90,140,.6);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.9em;
 }
