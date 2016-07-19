@@ -46,7 +46,7 @@
 
     <div class="col-md-4 col-md-offset-4">
         <a class="btn btn-primary btn-lg center-block" href="application.php" role="button">
-            <span class="text-big">Apply Today</span>
+            <span class="text-big">Apply Today!</span>
         </a>
     </div>
 
