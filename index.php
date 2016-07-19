@@ -28,7 +28,6 @@
             <ul class="nav navbar-nav">
 
 
-
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -59,6 +58,7 @@
 
             <div class="col-md-5 col-md-offset-1">
                 <h2 class="blocks1">Why</h2>
+
                 <p class="infoBlocks">The ABQ 30in30 project came about because we at Cultivating Coders were interested
                     in
                     showing the community of Albuquerque that we were a fully capable development shop that saw an
@@ -70,11 +70,22 @@
 
             <div class="col-md-5">
                 <h2 class="blocks1">How</h2>
+
                 <p class="infoBlocks">The goal of the ABQ30in30 Project is to provide 30 websites to members of the
-                    Albuquerque community that need a web presence for their business. We will provide a 1-3 page website
+                    Albuquerque community that need a web presence for their business. We will provide a 1-3 page
+                    website
                     based on a few templates we have to choose from and we'll take care of everything for one (1) year.
                 </p>
             </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-md-offset-5">
+            <a href="http://www.cultivatingcoders.com">
+                <img src="lib/images/cclogo.png" alt="CC Logo" style="width:228px;height:228px;">
+            </a>
 
         </div>
     </div>
