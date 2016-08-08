@@ -32,10 +32,13 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
+
+<section class="module parallax parallax-1">
+
 <div class="jumbotron">
 
     <div class="col-md-6 col-md-offset-3">
-        <h2 class="appopen">Applications Open until August 15th, 2016 </h2>
+        <h2 class="appopen">Applications Open until August 15th. </h2>
     </div>
 
     <div class="col-md-4 col-md-offset-4">
@@ -51,6 +54,8 @@
     </div>
 
 </div>
+
+</section>
 
 <div id="learn">
     <div class="row box1">

@@ -1,10 +1,8 @@
 .jumbotron {
-    background: url(../images/heroImageGrafittiNoLogo.png) no-repeat center center;
     background-size: cover;
     padding: 10%;
     text-align: center;
     background-position: 10% 10%;
-    height: 700px;
 }
 
 .appopen {
@@ -62,4 +60,22 @@
 .credit {
     font-family: 'Pacifico', cursive;
     color: darkgray;
+}
+
+/*PARRALAX*/
+
+section.module.parallax-1 {
+    background-image: url("/lib/images/heroImageGrafittiNoLogo.png");
+    background-size: cover;
+}
+
+section.module.parallax {
+    height: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
