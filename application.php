@@ -11,15 +11,21 @@
 
     if (!empty($_POST['email'])) {
 
-      $subject = "Someone Applied for Abq 30 in 30";
+      $from = new SendGrid\Email(null, "info@cultivatingcoders.com");
+      $to = new SendGrid\Email(null, "sandidgec@gmail.com");
+      $subject = "Someone just applied to be part of Abq 30 in 30";
       $message = $_POST['name'] . " just applied to be part of Abq 30 in 30." .
         "Their business is called: " . $_POST['business'] . ", their email is " .
         $_POST['email'] . " and they think they should be picked because: " .
         $_POST['reason'];
-        
-      $accepted = mail("charles@cultivatingcoders.com", $subject, $message);
+      $content = new SendGrid\Content("text/plain", $message);
+      $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
-      if ($accepted) {
+      $sendgrid = new SendGrid("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");
+
+      $response = $sendgrid->client->mail()->send()->post($mail);
+
+      if ($response->statusCode() >= 200 && $response->statusCode() < 400) {
 
         ?>
 
