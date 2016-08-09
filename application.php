@@ -1,3 +1,7 @@
+<?php
+  require("lib/sendgrid-php/sendgrid-php.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
